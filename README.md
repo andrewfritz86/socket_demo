@@ -7,3 +7,6 @@ basic chat application with websockets
 - Install socket.io with `npm install socket.io`
 
 - Install nodemon globally with `npm install -g nodemon`. This acts as a restarter for your express server. Use the command `nodemon server.js` to start up the server.
+
+###Thoughts
+- 
