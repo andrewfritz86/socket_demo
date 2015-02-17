@@ -20,7 +20,7 @@ $(function(){
 		//the first is the name of the event we want to send over
 		//(the server will be listening for that event name) then 
 		//we pass a hash with the data we actually want to send
-		socket.emit("chatsent",{message: input})
+		socket.emit("chatsent",{message: input});
 		//to sum up, in the callback, we take the value of the text input,
 		//append it to the dom, reset the input, then `emit` the value
 		//of the input up the socket where a listener is waiting for it in the server
